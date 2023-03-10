@@ -8,10 +8,15 @@ function App() {
     <div className="App">
       <div>
         <h1>Bektur eblan</h1>
+        <p className='read-the-docs'>
+          suuuuuukaaaaaaaa
+        </p>
       </div>
+
       <p className="read-the-docs">
         idi nahui
       </p>
+
     </div>
   )
 }
