@@ -8,7 +8,9 @@ function App() {
     <div className="App">
       <div>
         <h1>Bektur eblan</h1>
-        <button className='btn'>Да</button>
+        <p className='read-the-docs'>
+          suuuuukaaaaaaaa
+        </p>
       </div>
     </div>
   )
