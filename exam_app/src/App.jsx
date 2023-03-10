@@ -8,10 +8,8 @@ function App() {
     <div className="App">
       <div>
         <h1>Bektur eblan</h1>
+        <button className='btn'>Да</button>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </div>
   )
 }
