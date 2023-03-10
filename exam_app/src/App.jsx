@@ -12,6 +12,11 @@ function App() {
           suuuuuukaaaaaaaa
         </p>
       </div>
+
+      <p className="read-the-docs">
+        idi nahui
+      </p>
+
     </div>
   )
 }
