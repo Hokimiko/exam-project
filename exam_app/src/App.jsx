@@ -10,7 +10,7 @@ function App() {
         <h1>Bektur eblan</h1>
       </div>
       <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+        idi nahui
       </p>
     </div>
   )
