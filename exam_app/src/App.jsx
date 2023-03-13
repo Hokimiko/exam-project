@@ -14,7 +14,7 @@ function App() {
       </div>
 
       <p className="read-the-docs">
-        idi nahui
+        idi nahui 000
       </p>
 
     </div>
