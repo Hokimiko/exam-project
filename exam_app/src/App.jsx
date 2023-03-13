@@ -1,18 +1,9 @@
 import { useState } from "react";
+import reactLogo from "./assets/react.svg";
 import "./App.css";
-import ShowFlight from "./components/Card/Flight/ShowFlight/ShowFlight";
-import Flight from "../public/img/Flight.jpg";
-import Hotels from "../public/img/Hotels.jpg";
 
 function App() {
-  return (
-    <div className="App">
-      <div className="cards">
-        <ShowFlight subject="Flight" value="Show Flight" img={Flight} />
-        <ShowFlight subject="Hotels" value="Show Hotels" img={Hotels} />
-      </div>
-    </div>
-  );
+  return <div className="App"></div>;
 }
 
 export default App;

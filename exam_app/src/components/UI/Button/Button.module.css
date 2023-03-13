@@ -1,0 +1,24 @@
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 14px;
+    border: none;
+    /* width: 144px;
+    height: 48px; */
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: #8DD3BB;
+    color: #112211;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.button:active {
+    background-color: #7fc5ad;
+    transform: scale(0.9);
+    transition: 0.3s;
+}
