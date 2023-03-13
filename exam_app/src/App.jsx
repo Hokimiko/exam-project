@@ -9,7 +9,7 @@ function App() {
       <div>
         <h1>Bektur eblan</h1>
         <p className='read-the-docs'>
-          suuuuuukaaaaaaaa
+          suuuuukaaaaaaaa
         </p>
       </div>
     </div>
