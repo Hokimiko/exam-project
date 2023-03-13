@@ -1,14 +1,9 @@
-import { useState } from 'react'
-import './App.css'
-import FlightsSelection from './components/Card/Flight/FlightsSelection/FlightsSelection'
+import { useState } from "react";
+import reactLogo from "./assets/react.svg";
+import "./App.css";
 
 function App() {
-
-  return (
-    <div className="App">
-      <FlightsSelection/>
-    </div>
-  )
+  return <div className="App"></div>;
 }
 
-export default App
+export default App;
