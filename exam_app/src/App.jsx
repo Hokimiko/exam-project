@@ -1,12 +1,12 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import './App.css'
+import FlightsSelection from './components/Card/Flight/FlightsSelection/FlightsSelection'
 
 function App() {
 
   return (
     <div className="App">
-      
+      <FlightsSelection/>
     </div>
   )
 }
