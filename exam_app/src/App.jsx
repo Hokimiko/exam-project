@@ -9,12 +9,12 @@ function App() {
       <div>
         <h1>Bektur eblan</h1>
         <p className='read-the-docs'>
-          suuuuukaaaaaaaa
+          suuuuuukaaaaaaaa
         </p>
       </div>
 
       <p className="read-the-docs">
-        idi nahui 000
+        idi nahui
       </p>
 
     </div>
