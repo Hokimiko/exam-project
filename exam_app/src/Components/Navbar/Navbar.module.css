@@ -18,7 +18,7 @@ a {
 .login {
     font-family: 'Montserrat';
     font-weight: 500;
-    color: #000000;
+    color: #fff;
 }
 
 button {
@@ -29,5 +29,6 @@ button {
     border: 1px solid transparent;
     
     background: #FFFFFF;
+    color: #000;
     border-radius: 8px;
 }

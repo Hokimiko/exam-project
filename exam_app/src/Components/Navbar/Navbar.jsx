@@ -7,7 +7,7 @@ function Navbar({ icon1, icon2, logo, login, signUp }) {
   return (
     <div className={styles.header}>
       <nav>
-        <Link icon={icon1} text="Find Flight" />
+        <Link icon={icon1} text="Find Flight"/>
         <Link icon={icon2} text="Find Stays" />
       </nav>
       <div className={styles.logo_con}>

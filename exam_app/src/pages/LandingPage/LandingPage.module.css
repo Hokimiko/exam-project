@@ -1,0 +1,10 @@
+header {
+    padding: 1rem;
+}
+.header__section {
+    
+    border-radius: 10px;
+    background-size: cover;
+    /* padding: 18rem; */
+    background-image: url(./public/img/1st_header.jpg);
+}
