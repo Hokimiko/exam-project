@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 220px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.login {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    color: #000000;
+}
+
+button {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    padding: 15px 15px;
+    gap: 8px;
+    border: 1px solid transparent;
+    
+    background: #FFFFFF;
+    border-radius: 8px;
+}
