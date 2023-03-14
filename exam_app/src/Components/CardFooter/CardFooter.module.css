@@ -1,0 +1,83 @@
+.container {
+  width: 1232px;
+  height: 305px;
+  background: #cdeae1;
+  box-shadow: 0px 4px 16px rgba(17, 34, 17, 0.05);
+  border-radius: 20px;
+  /* display: inline-block; */
+}
+.container1 {
+  width: 593px;
+  height: 305px;
+  /* background-color: bisque; */
+  margin-left: 15px;
+}
+
+.text1 {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 54px;
+  color: #112211;
+}
+.container2 {
+  width: 593px;
+  height: 125px;
+  /* background-color: black;     */
+}
+.container3 {
+  width: 593px;
+  height: 53px;
+  /* background-color: aqua; */
+}
+.container4 {
+  display: flex;
+}
+.text2 {
+  margin: 0;
+  font-size: 20px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  color: #112211;
+}
+.text3 {
+  font-family: "Montserrat";
+  font-size: 14px;
+  color: #112211;
+  opacity: 0.7;
+  margin: 0;
+}
+.input1 {
+  border: none;
+  outline: none;
+  background: #ffffff;
+  border-radius: 4px;
+  margin: 2px;
+  padding: 1.4rem 8rem 1.4rem 1rem;
+  font-family: "Montserrat";
+}
+.button {
+  padding: 0px;
+  background-color: black;
+  color: aliceblue;
+  width: 104px;
+  height: 56px;
+  border-radius: 4px;
+  transform: translate(3px, 3px);
+}
+button {
+  transition: all 0.3s ease;
+  color: hsl(0, 0%, 100%);
+}
+button:active {
+  background-color: rgb(8, 8, 8);
+  box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+  transform: scale(0.9);
+  transition: 200ms;
+}
+.img {
+  width: 400px;
+  height: 305px;
+  margin-left: 800px;
+  margin-top: -255px;
+  /* background-color: blueviolet; */
+}
