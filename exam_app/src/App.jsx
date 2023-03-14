@@ -1,6 +1,7 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import './App.css'
+import CardFooter from './Components/Card.footer/CardFooter'
+import Footer from './Components/Footer/Footer'
 
 function App() {
 
@@ -16,8 +17,10 @@ function App() {
       <p className="read-the-docs">
         idi nahui
       </p>
-
+      <CardFooter/>
+      <Footer/>
     </div>
+    
   )
 }
 
