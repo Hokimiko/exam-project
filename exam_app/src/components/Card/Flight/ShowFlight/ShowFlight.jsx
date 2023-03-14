@@ -2,20 +2,17 @@ import React from "react";
 import Button from "../../../UI/Button/Button";
 import styles from "./ShowFlight.module.css";
 
-
-function ShowFlight(props) {
+function ShowFlight({img, subject, text, icon, btn_text}) {
   return (
     <div className={styles.card}>
       <div className={styles.img_con}>
-        <img className={styles.backg_img} src={props.img} alt="" />
+        <img className={styles.backg_img} src={img} alt="" />
       </div>
       <div className={styles.text_con}>
-        <h1>{props.subject}</h1>
-        <p className={styles.text}>
-          Search hotels & Places Hire to our most popular destinations
-        </p>
+        <h1>{subject}</h1>
+        <p className={styles.text}>{text}</p>
         <div className={styles.btn_con}>
-          <Button icon={vector} text={props.text} />
+          <Button icon={icon} text={btn_text} />
         </div>
       </div>
     </div>

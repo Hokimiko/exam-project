@@ -1,5 +1,6 @@
-.cards {
-    display: flex;
-    justify-content: space-between;
+body {
+    background: #fafbfc;
+}
+.footer {
     width: 100%;
 }

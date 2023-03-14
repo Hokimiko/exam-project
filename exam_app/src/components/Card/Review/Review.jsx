@@ -46,16 +46,4 @@ function Review(props) {
   );
 }
 
-{
-  /* <Review
-subject="“A real sense of community, nurtured”"
-text="Really appreciate the help and support from the staff during these
-  tough times. Shoutout to Katie for helping me always, even when I was
-  out of the country. And always available when needed."
-name="Olga"
-studios="Kai Tak"
-img={mountains}
-/> */
-}
-
 export default Review;
