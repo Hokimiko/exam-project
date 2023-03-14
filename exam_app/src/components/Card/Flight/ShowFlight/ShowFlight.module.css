@@ -1,10 +1,13 @@
+
+
 .card {
     display: flex;
     align-items: end;
     height: 604px;
     width: 559px;
-    border-radius: 20px;
+    border-radius: 15px;
     overflow: hidden;
+    /* background-image: url(./img/Flight.jpg); */
 }
 
 .img_con {
@@ -12,7 +15,7 @@
     overflow: hidden;
     height: 604px;
     width: 559px;
-    border-radius: 20px;
+    border-radius: 15px;
     z-index: 1;
 }
 
@@ -27,31 +30,33 @@
     text-align: center;
     width: 560px;
     height: 280px;
-    border-radius: 0 0 20px 20px;
+    border-radius: 0 0 15px 15px;
     z-index: 2;
 }
 
 h1 {
+    font-family: 'Montserrat';
     margin: 90px 0 10px 0;
     font-size: 3.2rem;
     font-weight: bold;
     color: white;
 }
 
-p {
+.text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
     font-size: 16px;
-    font-weight: 500;
-    color: white;
+    line-height: 20px;
+    text-align: center;
+    margin: 10px;
+    
+    color: #FFFFFF;
 }
 
-button {
-    font-size: 14px;
-    padding: 15px 25px;
-    border-radius: 5px;
-    color: rgb(0, 0, 0);
-    font-weight: 600;
-    background-color: rgba(141, 211, 187, 1);
-    border: 1px solid transparent;
+.btn_con {
+    display: flex;
+    justify-content: center;
 }
 
 .value {
@@ -63,3 +68,4 @@ button {
     width: 14px;
     padding-right: 10px;
 }
+

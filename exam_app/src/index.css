@@ -27,6 +27,15 @@
   src: url("./public/fonts/Montserrat-Bold.ttf");
   font-weight: 700;
 }
-body {
-  background-color: #222;
+
+.card1 {
+  background-image: url(../public/img/Flight.jpg);
 }
+
+.card1 {
+  background-image: url(../public/img/Hotels.jpg);
+}
+
+/* body {
+  background-color: #222;
+} */

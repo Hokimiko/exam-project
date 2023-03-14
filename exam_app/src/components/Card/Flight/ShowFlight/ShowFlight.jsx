@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "../../../UI/Button/Button";
 import styles from "./ShowFlight.module.css";
 
 
@@ -10,19 +11,30 @@ function ShowFlight(props) {
       </div>
       <div className={styles.text_con}>
         <h1>{props.subject}</h1>
-        <p>Search hotels & Places Hire to our most popular destinations</p>
-        <button>
-          <div className={styles.value}>
-            <img className={styles.vector} src={vector} alt="" />
-            {props.value}
-          </div>
-        </button>
+        <p className={styles.text}>
+          Search hotels & Places Hire to our most popular destinations
+        </p>
+        <div className={styles.btn_con}>
+          <Button icon={vector} text={props.text} />
+        </div>
       </div>
     </div>
   );
 }
 
-// <ShowFlight subject="Flight" value="Show Flight" img={Flight} />
-// <ShowFlight subject="Hotels" value="Show Hotels" img={Hotels} />     (App.jsx)
+{
+  /* <ShowFlight
+className="card1"
+subject="Flight"
+text="Show Flight"
+img={Flight}
+/>                                 App.jsx
+<ShowFlight
+className="card2"
+subject="Hotels"
+text="Show Hotels"
+img={Hotels}
+/> */
+}
 
 export default ShowFlight;
