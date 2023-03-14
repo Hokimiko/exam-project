@@ -1,8 +1,7 @@
 
-import { useState } from 'react'
-import './App.css'
-import CardFooter from './Components/Card.footer/CardFooter'
-import Footer from './Components/Footer/Footer'
+import { useState } from "react";
+import "./App.css";
+import ShowFlight from "./components/Card/Flight/ShowFlight/ShowFlight";
 
 function App() {
 
