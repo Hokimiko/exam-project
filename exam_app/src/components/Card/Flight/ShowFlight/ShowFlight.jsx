@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./ShowFlight.module.css";
-import vector from "./Vector.svg";
+
 
 function ShowFlight(props) {
   return (
