@@ -9,4 +9,4 @@ const Link = ({icon, text}) => {
     </div>
   )
 }
-export default Link
+export default Link;
