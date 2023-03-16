@@ -1,0 +1,89 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    width: 296px;
+    height: 420px;
+    border-radius: 12px;
+    border: 1px solid grey;
+}
+
+.img_con {
+    position: absolute;
+    width: 296px;
+    height: 420px;
+    background-color: #ffd3d3;
+    border-radius: 12px;
+    z-index: -2;
+}
+
+.city_price {
+    display: grid;
+    grid-template-columns: 177px 69px;
+    row-gap: 16px;
+    grid-template-rows: 46px 48px;
+    margin-bottom: 24px;
+}
+
+.city_con {
+    width: 100%;
+    height: 46px;
+    color: white;
+}
+.city_con > h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+}
+.city_con > p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.price_con {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    width: 100%;
+    height: 46px;
+    color: white;
+}
+.price_con > h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.btn_con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 14px;
+    border: none;
+    padding: 1rem 5.1rem;
+    border-radius: 5px;
+    color: #112211;
+    background-color: #8DD3BB;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
