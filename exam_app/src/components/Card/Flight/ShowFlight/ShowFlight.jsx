@@ -9,7 +9,7 @@ function ShowFlight({img, subject, text, icon, btn_text}) {
         <img className={styles.backg_img} src={img} alt="" />
       </div>
       <div className={styles.text_con}>
-        <h1>{subject}</h1>
+        <h1 className={styles.title}>{subject}</h1>
         <p className={styles.text}>{text}</p>
         <div className={styles.btn_con}>
           <Button icon={icon} text={btn_text} />

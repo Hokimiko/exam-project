@@ -34,7 +34,7 @@
     z-index: 2;
 }
 
-h1 {
+.title {
     font-family: 'Montserrat';
     margin: 90px 0 10px 0;
     font-size: 3.2rem;
