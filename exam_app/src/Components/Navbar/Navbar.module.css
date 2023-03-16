@@ -2,13 +2,14 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 1232px;
     height: 90px;
 }
 
-nav {
+.nav {
     display: flex;
     justify-content: space-between;
-    width: 220px;
+    width: 280px;
 }
 
 a {
@@ -19,6 +20,13 @@ a {
     font-family: 'Montserrat';
     font-weight: 500;
     color: #000000;
+}
+
+.buttons_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
 }
 
 button {

@@ -6,14 +6,13 @@
     width: 296px;
     height: 420px;
     border-radius: 12px;
-    border: 1px solid grey;
+    z-index: 4;
 }
 
 .img_con {
     position: absolute;
     width: 296px;
     height: 420px;
-    background-color: #ffd3d3;
     border-radius: 12px;
     z-index: -2;
 }
