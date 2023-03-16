@@ -1,28 +1,37 @@
 import React from "react";
+import Button from "../../../UI/Button/Button";
 import styles from "./ShowFlight.module.css";
-import vector from "./Vector.svg";
 
-function ShowFlight(props) {
+function ShowFlight({img, subject, text, icon, btn_text}) {
   return (
     <div className={styles.card}>
       <div className={styles.img_con}>
-        <img className={styles.backg_img} src={props.img} alt="" />
+        <img className={styles.backg_img} src={img} alt="" />
       </div>
       <div className={styles.text_con}>
-        <h1>{props.subject}</h1>
-        <p>Search hotels & Places Hire to our most popular destinations</p>
-        <button>
-          <div className={styles.value}>
-            <img className={styles.vector} src={vector} alt="" />
-            {props.value}
-          </div>
-        </button>
+        <h1>{subject}</h1>
+        <p className={styles.text}>{text}</p>
+        <div className={styles.btn_con}>
+          <Button icon={icon} text={btn_text} />
+        </div>
       </div>
     </div>
   );
 }
 
-// <ShowFlight subject="Flight" value="Show Flight" img={Flight} />
-// <ShowFlight subject="Hotels" value="Show Hotels" img={Hotels} />     (App.jsx)
+{
+  /* <ShowFlight
+className="card1"
+subject="Flight"
+text="Show Flight"
+img={Flight}
+/>                                 App.jsx
+<ShowFlight
+className="card2"
+subject="Hotels"
+text="Show Hotels"
+img={Hotels}
+/> */
+}
 
 export default ShowFlight;

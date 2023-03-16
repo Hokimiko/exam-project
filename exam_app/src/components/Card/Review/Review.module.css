@@ -1,0 +1,116 @@
+.container {
+    width: 425px;
+    height: 584px;
+    padding: 24px;
+    border-radius: 15px;
+    box-shadow: 2px 4px 16px rgba(17, 34, 17, 0.1);
+    background-color: #fff;
+}
+
+.shadow_container {
+    position: absolute;
+    width: 473px;
+    height: 632px;
+    border-radius: 15px;
+    background-color: rgba(141, 211, 187, 0.4);
+    z-index: -2 !important;
+}
+
+h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    margin: 5px 0 30px 0;
+    
+    color: #112211;
+}
+
+.text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #112211;
+    
+    opacity: 0.5;
+}
+
+.studios {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #112211;
+    
+    opacity: 0.5;
+}
+
+.view_more_con {
+    text-align: right;
+}
+
+.view_more {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 12px 0 0 0;
+    text-decoration: none;
+    
+    color: #112211;
+}
+
+.view_more:hover {
+    text-decoration: underline;
+}
+
+.black_stars_con {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+    width: 165px;
+}
+
+.average__name {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 21px 0 4px 0;
+    
+    color: #112211;
+}
+
+.google_con {
+    display: flex;
+    justify-content: space-between;
+    width: 90px;
+    margin: 14px 0 0 0;
+}
+
+.google_text {
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #112211;
+    
+    opacity: 0.5;
+}
+
+.img_con {
+    display: flex;
+    justify-content: center;
+    /* width: 377px;
+    height: 200px; */
+    margin: 34px 0 0 0;
+}
