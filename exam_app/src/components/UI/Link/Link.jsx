@@ -9,12 +9,4 @@ const Link = ({icon, text, type}) => {
     </div>
   )
 }
-function linkType(typee) {
-  if(typee === "light") {
-    return styles.link_light
-  } else if(typee === "dark") {
-    return styles.link_dark
-  }
-}
-
-export default Link;
+export default Link
