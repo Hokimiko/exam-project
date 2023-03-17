@@ -5,6 +5,9 @@ import AllSee from "../components/UI/AllSee/AllSee";
 import BookFlight from "../components/Card/Flight/BookFlight/BookFlight";
 import styles from "./FlightSearch.module.css";
 import map from "./map.jpg";
+import BookJourney from "../components/Card/Flight/BookFlight/BookJourney/BookJourney";
+import Footer from "../components/Footer/Footer";
+import FooterCard from "../components/Footer/FooterCard/FooterCard";
 
 function FlightSearch() {
   return (
@@ -13,6 +16,7 @@ function FlightSearch() {
         <Navbar
           icon1="./public/icons/plane.png"
           icon2="./public/icons/bed.png"
+          props="dark"
         />
       </div>
       <section className={styles.first_section}>
@@ -73,11 +77,31 @@ function FlightSearch() {
         <div className={styles.fifth__all_see}>
           <AllSee
             subject="Fall into travel"
-            text="Going somewhere to celebrate this season? Whether you're going home or somewhere to roam, we've got the travel tools to get you to your destination."
+            text="Going somewhere to celebrate this season? Whether you’re going home or somewhere to roam, we’ve got the travel tools to get you to your destination."
             btn_text="See All"
           />
         </div>
+        <div className={styles.book_journey}>
+          <BookJourney
+            img1="../public/img/SriLanka1.png"
+            img2="../public/img/SriLanka2.png"
+            img3="../public/img/SriLanka3.png"
+            img4="../public/img/SriLanka4.png"
+          />
+        </div>
       </section>
+      <footer>
+        <div className={styles.cardFooter}>
+          <FooterCard
+            subject="Subscribe Newsletter"
+            title="The Travel"
+            text="Get inspired! Receive travel discounts, tips and behind the scenes stories."
+            email="Your email address"
+            btn_value="Subscribe"
+          />
+        </div>
+        <Footer logo="../public/img/darkLogo.png" />
+      </footer>
     </div>
   );
 }
