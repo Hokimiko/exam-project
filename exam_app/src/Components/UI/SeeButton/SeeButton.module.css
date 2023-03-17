@@ -1,0 +1,15 @@
+.btn {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 14px;
+  border: 1px solid #8dd3bb;
+  border-radius: 5px;
+  outline: none;
+  background: none;
+  color: #112211;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+.btn:active {
+  background-color: #8dd3ba33;
+}

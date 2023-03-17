@@ -27,3 +27,13 @@
   src: url("./public/fonts/Montserrat-Bold.ttf");
   font-weight: 700;
 }
+@font-face {
+  font-family: 'Trade';
+  src: url("./public/fonts/TradeGothicLTStd-Extended.ttf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Trade';
+  src: url("./public/fonts/TradeGothicLTStd-Extended.ttf");
+  font-weight: 500;
+}

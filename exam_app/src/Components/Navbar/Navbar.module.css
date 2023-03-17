@@ -5,29 +5,33 @@
     height: 90px;
 }
 
-nav {
+.nav {
     display: flex;
     justify-content: space-between;
     width: 220px;
 }
 
-a {
-    text-decoration: none;
-}
 
 .login {
     font-family: 'Montserrat';
     font-weight: 500;
-    color: #000000;
+    color: #fff;
+}
+
+.buttons_con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
 button {
     font-family: 'Montserrat';
-    font-weight: 500;
+    font-weight: 600;
     padding: 15px 15px;
     gap: 8px;
     border: 1px solid transparent;
-    
     background: #FFFFFF;
+    color: #000;
     border-radius: 8px;
 }
