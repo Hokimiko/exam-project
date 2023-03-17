@@ -9,13 +9,9 @@ function Review(props) {
       <div className={styles.shadow_container}></div>
       <div className={styles.upper}>
         <h2>
-          {/* “A real sense of community, nurtured” */}
           {props.subject}
         </h2>
         <p className={styles.text}>
-          {/* Really appreciate the help and support from the staff during these
-          tough times. Shoutout to Katie for helping me always, even when I was
-          out of the country. And always available when needed. */}
           {props.text}
         </p>
         <p className={styles.view_more_con}>

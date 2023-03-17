@@ -1,27 +1,40 @@
-
 .container1 {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 340px;
-    height: 92px;
-    padding: 16px;
-    border-radius: 16px;
-    background-color: #ffffff;
-    box-shadow: 4px 4px 16px rgba(17, 34, 17, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 340px;
+  height: 92px;
+  padding: 16px;
+  border-radius: 16px;
+  background-color: #ffffff;
+  box-shadow: 4px 4px 16px rgba(17, 34, 17, 0.2);
 }
 
 .img_cont {
-    border-radius: 8px;
-    width: 90px;
-    height: 90px;
+  border-radius: 8px;
+  width: 90px;
+  height: 90px;
 }
 
 .texts_cont {
-    padding: 16px;
-    width: 251px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 5px;
+  padding: 16px;
+  width: 251px;
 }
 
-p {
-    margin: 6px;
+.city {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 16px;
+  color: #112211;
+}
+.text {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 14px;
+  color: #112211;
 }

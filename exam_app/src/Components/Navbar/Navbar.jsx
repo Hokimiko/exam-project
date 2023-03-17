@@ -14,7 +14,7 @@ function Navbar({ icon1, icon2, logo, login, signUp }) {
         <img src={logotype} alt="" />
       </div>
       <div className={styles.buttons_con}>
-      <Link icon={icon2} text="Find Stays" type="light"/>
+      <Link icon={icon2} text="Login" type="light"/>
         <button className={styles.btn}>Sign Up</button>
       </div>
     </div>

@@ -8,9 +8,9 @@ const FlightsSelection = () => {
     <div className={styles.container}>
       <div className={styles.elements}>
         <div className={styles.tabs}>
-            <Link icon="./public/icons/plane.png" text="Flights"/>
+            <Link icon="./public/icons/plane.png" text="Flights" type="dark"/>
             <div className={styles.break}></div>
-            <Link icon="./public/icons/bed.png" text="Stays"/>
+            <Link icon="./public/icons/bed.png" text="Stays" type="dark"/>
         </div>
         <div className={styles.inputs}>
             <input className={styles.input} type="text" value="Lahore - Karachi" readOnly/>
@@ -21,7 +21,7 @@ const FlightsSelection = () => {
             <input className={styles.input} type="text" value="1 Passenger, Economy"/>
         </div>
         <div className={styles.buttons}>
-            <Link text="+ Add Promo Code"/>
+            <Link text="+ Add Promo Code" type="dark"/>
             <Button icon="./public/icons/telegram.png" text="Show flights"/>
         </div>
       </div>
