@@ -1,13 +1,13 @@
 import React from "react";
-import FlightsSelection from "../components/Card/Flight/flightsSelection/flightsSelection";
-import Navbar from "../components/Navbar/Navbar";
-import AllSee from "../components/UI/AllSee/AllSee";
-import BookFlight from "../components/Card/Flight/BookFlight/BookFlight";
+import FlightsSelection from "../Components/Card/Flight/flightsSelection/flightsSelection";
+import Navbar from "../Components/Navbar/Navbar";
+import AllSee from "../Components/UI/AllSee/AllSee";
+import BookFlight from "../Components/Card/Flight/BookFlight/BookFlight";
 import styles from "./FlightSearch.module.css";
 import map from "./map.jpg";
-import BookJourney from "../components/Card/Flight/BookFlight/BookJourney/BookJourney";
-import Footer from "../components/Footer/Footer";
-import FooterCard from "../components/Footer/FooterCard/FooterCard";
+import BookJourney from "../Components/Card/Flight/BookFlight/BookJourney/BookJourney";
+import Footer from "../Components/Footer/Footer";
+import FooterCard from "../Components/CardFooter/CardFooter";
 
 function FlightSearch() {
   return (

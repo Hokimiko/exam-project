@@ -1,7 +1,6 @@
 import React from "react";
 import FlightsSelection from "../../components/Card/Flight/flightsSelection/flightsSelection";
 import Ticket from "../../components/Card/Flight/Ticket/Ticket";
-import Navbar from "../../components/Navbar/Navbar";
 import SeeButton from "../../components/UI/SeeButton/SeeButton";
 import styles from "./LandingPage.module.css";
 import ShowFlight from "../../components/Card/Flight/ShowFlight/ShowFlight";
@@ -19,9 +18,7 @@ const LandingPage = () => {
             alt=""
           />
           <div className={styles.navbar_container}>
-            <div className={styles.navbar}>
-              <Navbar />
-            </div>
+            <div className={styles.navbar}></div>
             <div className={styles.text_container}>
               <h3 className={styles.subtitle}>Helping Others</h3>
               <h1 className={styles.title}>Live & Travel</h1>
