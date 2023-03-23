@@ -1,6 +1,13 @@
 body {
     background: #fafbfc;
 }
+
+.App {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
 .footer {
     width: 100%;
 }
