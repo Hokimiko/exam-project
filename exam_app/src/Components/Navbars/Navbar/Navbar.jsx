@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from "react";
 import styles from "./Navbar.module.css";
 import Link from "../../UI/Link/Link";
+import SignUpButton from "../../UI/SignUpButton/SignUpButton";
 
 
 function Navbar({}) {
@@ -18,7 +19,7 @@ function Navbar({}) {
         </div>
         <div className={styles.login}>
           <Link text="Login" type="light"/>
-          <button className={styles.btn}>Sign Up</button>
+          <SignUpButton text="Sign Up" type="light" to="/sign_up"/>
         </div>
     </div>
   );

@@ -8,9 +8,11 @@ import BookJourney from "../../components/Card/Flight/BookFlight/BookJourney/Boo
 import Footer from "../../components/Footer/Footer";
 import FooterCard from "../../components/Footer/FooterCard/FooterCard";
 import FindFlight from "../../components/Navbars/FindFlight/FindFlight";
+import Backdrop from "../../components/UI/Backdrop/Backdrop";
+
 
 function FlightSearch() {
-  return (
+  return (    
     <div className={styles.main}>
       <nav>
         <FindFlight/>

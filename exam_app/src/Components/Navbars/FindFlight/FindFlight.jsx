@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from '../../UI/Link/Link'
+import SignUpButton from '../../UI/SignUpButton/SignUpButton'
 import style from './FindFlight.module.css'
 
 const FindFlight = () => {
@@ -14,7 +15,7 @@ const FindFlight = () => {
         </div>
         <div className={style.login}>
             <Link text="Login" type="dark"/>
-            <button className={style.btn}>Sign Up</button>
+            <SignUpButton text="Sign Up" type="dark" to="/sign_up"/>
         </div>
     </div>
   )
