@@ -1,27 +1,23 @@
 import React from "react";
-import FlightsSelection from "../components/Card/Flight/flightsSelection/flightsSelection";
-import Navbar from "../components/Navbar/Navbar";
-import AllSee from "../components/UI/AllSee/AllSee";
-import BookFlight from "../components/Card/Flight/BookFlight/BookFlight";
+import FlightsSelection from "../../components/Card/Flight/flightsSelection/flightsSelection";
+import AllSee from "../../components/UI/AllSee/AllSee";
+import BookFlight from "../../components/Card/Flight/BookFlight/BookFlight";
 import styles from "./FlightSearch.module.css";
 import map from "./map.jpg";
-import BookJourney from "../components/Card/Flight/BookFlight/BookJourney/BookJourney";
-import Footer from "../components/Footer/Footer";
-import FooterCard from "../components/Footer/FooterCard/FooterCard";
+import BookJourney from "../../components/Card/Flight/BookFlight/BookJourney/BookJourney";
+import Footer from "../../components/Footer/Footer";
+import FooterCard from "../../components/Footer/FooterCard/FooterCard";
+import FindFlight from "../../components/Navbars/FindFlight/FindFlight";
 
 function FlightSearch() {
   return (
     <div className={styles.main}>
-      <div className={styles.navbar_container}>
-        <Navbar
-          icon1="./public/icons/plane.png"
-          icon2="./public/icons/bed.png"
-          props="dark"
-        />
-      </div>
+      <nav>
+        <FindFlight/>
+      </nav>
       <section className={styles.first_section}>
         <div className={styles.flightsSelection}>
-          <FlightsSelection />
+          <FlightsSelection />  
         </div>
       </section>
       <section className={styles.second_section}>
@@ -90,18 +86,7 @@ function FlightSearch() {
           />
         </div>
       </section>
-      <footer>
-        <div className={styles.cardFooter}>
-          <FooterCard
-            subject="Subscribe Newsletter"
-            title="The Travel"
-            text="Get inspired! Receive travel discounts, tips and behind the scenes stories."
-            email="Your email address"
-            btn_value="Subscribe"
-          />
-        </div>
-        <Footer logo="../public/img/darkLogo.png" />
-      </footer>
+      
     </div>
   );
 }

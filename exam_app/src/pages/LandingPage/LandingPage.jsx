@@ -1,11 +1,11 @@
 import React from "react";
 import FlightsSelection from "../../components/Card/Flight/flightsSelection/flightsSelection";
 import Ticket from "../../components/Card/Flight/Ticket/Ticket";
-import Navbar from "../../components/Navbar/Navbar";
 import SeeButton from "../../components/UI/SeeButton/SeeButton";
 import styles from "./LandingPage.module.css";
 import ShowFlight from "../../components/Card/Flight/ShowFlight/ShowFlight";
 import Review from "../../components/Card/Review/Review";
+import Navbar from "../../components/Navbars/Navbar/Navbar";
 
 const LandingPage = () => {
   return (
@@ -20,7 +20,7 @@ const LandingPage = () => {
           />
           <div className={styles.navbar_container}>
             <div className={styles.navbar}>
-              <Navbar />
+              <Navbar/>
             </div>
             <div className={styles.text_container}>
               <h3 className={styles.subtitle}>Helping Others</h3>
@@ -97,29 +97,46 @@ const LandingPage = () => {
             </div>
           </div>
           <div className={styles.reviews_container}>
-            <Review
-              subject="“A real sense of community, nurtured”"
-              text="Really appreciate the help and support from the staff during these tough times. Shoutout to Katie for helping me always, even when I was out of the country. And always available when needed."
-              name="Olga"
-              studios="Kai Tak"
-              img="./public/img/Review 36.jpg"
-            />
-            <Review
-              subject="“The facilities are superb. Clean, slick, bright.”"
-              text="“A real sense of community, nurtured”Really appreciate the help and support from the staff during these tough times. Shoutout to Katie for helping me always, even when I was out of the country. And always available when needed.View moreOlgaWeave Studios – Kai TakGoogle"
-              name="Thomas"
-              studios="Olimpic"
-              img="./public/img/Review 37.jpg"
-            />
-            <Review
-              subject="“A real sense of community, nurtured”
+            <div className={styles.review}>
+              <Review
+                subject="“A real sense of community, nurtured”"
+                text="Really appreciate the help and support from the staff during these tough times. Shoutout to Katie for helping me always, even when I was out of the country. And always available when needed."
+                name="Olga"
+                studios="Kai Tak"
+                img="./public/img/Review 36.jpg"
+              />
+            </div>
+            <div className={styles.review}>
+              <Review
+                subject="“The facilities are superb. Clean, slick, bright.”"
+                text="“A real sense of community, nurtured”Really appreciate the help and support from the staff during these tough times. Shoutout to Katie for helping me always, even when I was out of the country. And always available when needed.View moreOlgaWeave Studios – Kai TakGoogle"
+                name="Thomas"
+                studios="Olimpic"
+                img="./public/img/Review 37.jpg"
+              />
+            </div>
+            <div className={styles.review}>
+              <Review
+                subject="“A real sense of community, nurtured”
               "
-              text="Really appreciate the help and support from the staff during these tough times. Shoutout to Katie for helping me always, even when I was out of the country. And always available when needed.
+                text="Really appreciate the help and support from the staff during these tough times. Shoutout to Katie for helping me always, even when I was out of the country. And always available when needed.
               "
-              name="Eliot"
-              studios="Kai Tak"
-              img="./public/img/Review 38.jpg"
-            />
+                name="Eliot"
+                studios="Kai Tak"
+                img="./public/img/Review 38.jpg"
+              />
+            </div>
+            <div className={styles.review}>
+              <Review
+                subject="“A real sense of community, nurtured”
+              "
+                text="Really appreciate the help and support from the staff during these tough times. Shoutout to Katie for helping me always, even when I was out of the country. And always available when needed.
+              "
+                name="Eliot"
+                studios="Kai Tak"
+                img="./public/img/Review 38.jpg"
+              />
+            </div>  
           </div>
         </section>
       </main>

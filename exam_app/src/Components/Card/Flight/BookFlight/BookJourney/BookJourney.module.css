@@ -80,7 +80,7 @@
 .btn_container {
     display: flex;
     justify-content: center;
-    margin-top: 92px;
+    margin-top: 65px;
 }
 
 .btn_container > button {
