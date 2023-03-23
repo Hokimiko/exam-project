@@ -4,6 +4,7 @@ import FlightSearch from "./pages/FlightSearch/FlightSearch";
 import Footer from "./components/Footer/Footer";
 import FooterCard from "./components/Footer/FooterCard/FooterCard";
 import { Route, Routes } from "react-router-dom";
+import FlightListing from "./pages/FlightListing/FlightListing";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Routes>
         <Route path="/" element={<LandingPage/>}/>
         <Route path="/flight_search" element={<FlightSearch/>}/>
+        <Route path="/flight_listing" element={<FlightListing/>}/>
       </Routes>
 
 
