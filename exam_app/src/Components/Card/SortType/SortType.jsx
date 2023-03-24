@@ -5,16 +5,16 @@ function SortType() {
   return (
     <div className={styles.container}>
       <div className={styles.cheapers_container}>
-        <h3>Cheapers</h3>
-        <p>$99 . 2h 18m</p>
+        <h3 className={styles.h3}>Cheapers</h3>
+        <p className={styles.p}>$99 . 2h 18m</p>
       </div>
       <div className={styles.best_ontainer}>
-        <h3>Cheapers</h3>
-        <p>$99 . 2h 18m</p>
+        <h3 className={styles.h3}>Cheapers</h3>
+        <p className={styles.p}>$99 . 2h 18m</p>
       </div>
       <div className={styles.quickest_container}>
-        <h3>Cheapers</h3>
-        <p>$99 . 2h 18m</p>
+        <h3 className={styles.h3}>Cheapers</h3>
+        <p className={styles.p}>$99 . 2h 18m</p>
       </div>
       <div className={styles.others_container}>
         <div className={styles.burger_container}>
@@ -23,7 +23,7 @@ function SortType() {
           <span></span>
         </div>
         <div>
-          <h4>Other sort</h4>
+          <h4 className={styles.h4}>Other sort</h4>
         </div>
       </div>
     </div>

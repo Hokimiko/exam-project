@@ -3,6 +3,7 @@ import styles from "./FlightDetail.module.css";
 import Button from "../../../UI/Button/Button";
 
 function FlightDetail({
+  img,
   price,
   departure_time,
   departure_time2,
@@ -13,7 +14,7 @@ function FlightDetail({
   return (
     <div className={styles.container}>
       <div className={styles.img_container}>
-        <img src="../public/img/image 40.png" alt="" />
+        <img src={img} alt="" />
       </div>
       <div className={styles.description_container}>
         <div className={styles.grade_container}>

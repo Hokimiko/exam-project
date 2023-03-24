@@ -1,10 +1,10 @@
 import "./App.css";
-import SortType from "./Components/Card/SortType/SortType";
+import FlightListing from "./pages/FlightListing/FlightListing";
 
 function App() {
   return (
     <div className="App">
-      <SortType />
+      <FlightListing />
     </div>
   );
 }
