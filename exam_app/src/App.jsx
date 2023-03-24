@@ -1,12 +1,7 @@
 import "./App.css";
-import FlightListing from "./pages/FlightListing/FlightListing";
 
 function App() {
-  return (
-    <div className="App">
-      <FlightListing />
-    </div>
-  );
+  return <div className="App"></div>;
 }
 
 export default App;
