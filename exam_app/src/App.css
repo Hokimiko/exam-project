@@ -10,3 +10,20 @@ body {
 .footer {
     width: 100%;
 }
+.container2_none {
+    display: none;
+}
+.container2_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 126px;
+    height: 111px;
+    padding: 16px 16px 16px 16px;
+    
+    background-color: #8DD3BB;
+    border: 1px solid #8DD3BB;
+    border-radius: 12px;
+    /* opacity: 0;
+    z-index: -2; */
+}
