@@ -14,7 +14,9 @@ const AccountFlow = () => {
             />
           </div>
         </div>
-        <div className={styles.prifile_container}></div>
+        <div className={styles.prifile_container}>
+          <div className={styles.avatar}></div>
+        </div>
       </div>
     </main>
   );
