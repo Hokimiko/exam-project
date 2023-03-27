@@ -6,13 +6,12 @@ import Footer from "./components/Footer/Footer";
 import FooterCard from "./components/Footer/FooterCard/FooterCard";
 import { Route, Routes } from "react-router-dom";
 import FlightListing from "./pages/FlightListing/FlightListing";
-import Backdrop from "./components/UI/Backdrop/Backdrop";
 import SignUp from "./components/Form/SignUp/SignUp";
 
 function App() {
   return (
     <div className="App">
-      {/* <Backdrop/> */}
+      
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/flight_search" element={<FlightSearch />} />
@@ -26,6 +25,7 @@ function App() {
         </div>
         <Footer />
       </div>
+
     </div>
   );
 }

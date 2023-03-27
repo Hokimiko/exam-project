@@ -1,7 +1,22 @@
 import React from "react";
+import Button from "../../UI/Button/Button";
+import CreateAccButton from "../../UI/CreateAccButton/CreateAccButton";
 import styles from "./SignUp.module.css";
 
 const SignUp = () => {
+
+  // let input = document.querySelector(".input")
+  // let firstName = document.querySelector("#firstName");
+  // let lastName = document.querySelector("#lastName");
+  // let email = document.querySelector("#email");
+  // let phone = document.querySelector("#phone");
+  // let password = document.querySelector("#pwd");
+  // let confirmPassword = document.querySelector("#conf_pwd");
+  // let btn = document.querySelector(".createacc_btn")
+
+  
+
+
   return (
     <div className={styles.container}>
       <div className={styles.carousel}>
@@ -20,37 +35,37 @@ const SignUp = () => {
             className={styles.input}
             placeholder="First name"
             type="text"
-            id={styles.inp1}
+            id={styles.firstName}
           />
           <input
             className={styles.input}
             placeholder="Last name"
             type="text"
-            id={styles.inp2}
+            id={styles.lastName}
           />
           <input
             className={styles.input}
             placeholder="Email"
             type="email"
-            id={styles.inp3}
+            id={styles.email}
           />
           <input
             className={styles.input}
             placeholder="Phone number"
             type="text"
-            id={styles.inp4}
+            id={styles.phone}
           />
           <input
             className={styles.input}
             placeholder="Password"
             type="password"
-            id={styles.inp5}
+            id={styles.pwd}
           />
           <input
             className={styles.input}
             placeholder="Confirm password"
             type="password"
-            id={styles.inp6}
+            id={styles.conf_pwd}
           />
         </div>
         <span className={styles.agreement}>
@@ -60,7 +75,8 @@ const SignUp = () => {
           </p>
         </span>
         <div className={styles.create_acc}>
-          <button className={styles.btn}>Create account</button>
+          {/* <button className={styles.btn}>Create account</button> */}
+          <CreateAccButton text="Create account" to="/flight_listing"/>
           <p className={styles.create_text}>Already have an account? Login</p>
         </div>
         <div className={styles.line}></div>
