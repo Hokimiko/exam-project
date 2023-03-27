@@ -1,6 +1,12 @@
 body {
-    background: #fafbfc;
+    background: #ffffff;
 }
 .footer {
     width: 100%;
+}
+.footer_card {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: -150px;
 }

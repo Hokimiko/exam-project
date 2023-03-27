@@ -7,4 +7,4 @@ const SeeButton = ({text}) => {
   )
 }
 
-export default SeeButton
+export default SeeButton;
