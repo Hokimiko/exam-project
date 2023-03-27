@@ -1,6 +1,5 @@
 import { useState } from "react";
 import "./App.css";
-import FightDetail from './pages/FightDetail/FightDetail';
 import FightDetailPages from './pages/FightDetailPages/FightDetailPages';
 import FightDetailPages2 from './pages/FightDetailPages2/FightDetailPages2';
 import FightDetailPages3 from './pages/FightDetailPages3/FightDetailPages3';
@@ -16,7 +15,7 @@ function App() {
   return (
     <div className="App">
       
-      <Routes>
+      {/* <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/flight_search" element={<FlightSearch />} />
         <Route path="/flight_listing" element={<FlightListing />} />
@@ -28,7 +27,11 @@ function App() {
           <FooterCard />
         </div>
         <Footer />
-      </div>
+
+  
+      </div> */}
+
+
 
     </div>
   );
