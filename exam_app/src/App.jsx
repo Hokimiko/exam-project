@@ -1,5 +1,9 @@
 import { useState } from "react";
 import "./App.css";
+import FightDetail from './pages/FightDetail/FightDetail';
+import FightDetailPages from './pages/FightDetailPages/FightDetailPages';
+import FightDetailPages2 from './pages/FightDetailPages2/FightDetailPages2';
+import FightDetailPages3 from './pages/FightDetailPages3/FightDetailPages3';
 import LandingPage from "./pages/LandingPage/LandingPage";
 import FlightSearch from "./pages/FlightSearch/FlightSearch";
 import Footer from "./components/Footer/Footer";

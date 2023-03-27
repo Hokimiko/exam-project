@@ -1,0 +1,125 @@
+.container{
+width: 1232px;
+height: 104px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.container2{
+width: 374px;
+height: 104px;
+}
+.container3{
+width: 276px;
+height: 103px;
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+}
+.con2_blok1{
+width: 293px;
+height: 30px;
+}
+.con2_text1{
+    width: 293px;
+    height: 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #112211;
+}
+.con2_blok2{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+width: 374px;
+height: 58px;
+}
+.con2_blok3{
+width: 374px;
+height: 18px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+color: #112211;
+opacity: 0.75;
+}
+.con2_blok4{
+width: 181px;
+height: 32px;
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+.btn1{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 16px;
+gap: 4px;
+width: 40px;
+height: 32px;
+border: 1px solid #8DD3BB;
+border-radius: 4px;
+}
+.con2_text2{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+margin-left: 5px;
+font-size: 12px;
+line-height: 15px;
+color: #112211;
+}
+.con3_text1{
+width: 83px;
+height: 39px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+text-align: right;
+color: #FF8682;
+}
+.con3_blok1{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 15px;
+width: 276px;
+height: 48px;
+}
+.con3_btn1{
+box-sizing: border-box;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 16px;
+gap: 4px;
+width: 48px;
+height: 48px;
+border: 1px solid #8DD3BB;
+border-radius: 4px;
+}
+.con3_btn2{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 16px;
+gap: 4px;
+width: 150px;
+height: 48px;
+background: #8DD3BB;
+border-radius: 4px;
+}
