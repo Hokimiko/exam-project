@@ -20,7 +20,7 @@ const LandingPage = () => {
           />
           <div className={styles.navbar_container}>
             <div className={styles.navbar}>
-              <Navbar/>
+              <Navbar />
             </div>
             <div className={styles.text_container}>
               <h3 className={styles.subtitle}>Helping Others</h3>
