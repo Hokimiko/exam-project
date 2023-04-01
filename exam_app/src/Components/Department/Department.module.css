@@ -1,0 +1,49 @@
+.container {
+    display: grid;
+    align-items: center;
+    justify-content: space-between;
+    grid-template-columns: 215px 215px 215px;
+    gap: 6.4%;
+    width: 97%;
+    height: 80px;
+    border-radius: 12px;
+    padding: 0 60px 0 18px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(17, 34, 17, 0.05);
+}
+
+.texts {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    
+    color: #112211;
+}.texts:hover {
+    cursor: pointer;
+}
+
+.account_container,
+.history_ontainer,
+.paymentMethods_container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+    padding: 0 20px 0 20px;
+    height: 75px;
+    transition: .1s;
+    border-bottom: 4px solid transparent;
+}
+
+.account_container:hover {
+    border-bottom: 4px solid #8DD3BB;
+    transition: .1s;
+}.history_ontainer:hover {
+    border-bottom: 4px solid #8DD3BB;
+    transition: .1s;
+}.paymentMethods_container:hover {
+    border-bottom: 4px solid #8DD3BB;
+    transition: .1s;
+}
