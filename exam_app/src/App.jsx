@@ -1,13 +1,9 @@
 import "./App.css";
 import { useState } from "react";
-import AccountFlow from "./pages/Accounts/AccountFlow/AccountFlow";
+import Account from "./pages/Accounts/Account/Account";
 
 function App() {
-  return (
-    <div className="App">
-      <AccountFlow />
-    </div>
-  );
+  return <div className="App"></div>;
 }
 
 export default App;
