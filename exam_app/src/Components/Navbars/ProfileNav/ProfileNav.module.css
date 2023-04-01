@@ -1,0 +1,33 @@
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 2rem;
+}
+
+.links {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.logo_con {
+    margin-right: 80px;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    padding: 15px 15px;
+    gap: 8px;
+    border: 1px solid transparent;
+    background: #FFFFFF;
+    color: #000;
+    border-radius: 8px;
+}

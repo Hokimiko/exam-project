@@ -10,11 +10,11 @@ function BookFlight({ img, city, text, price }) {
       </div>
       <div className={styles.city_price}>
         <div className={styles.city_con}>
-          <h2>{city}</h2>
-          <p>{text}</p>
+          <h2 className={styles.title}>{city}</h2>
+          <p className={styles.text}>{text}</p>
         </div>
         <div className={styles.price_con}>
-          <h2>{price}</h2>
+          <h2 className={styles.price}>{price}</h2>
         </div>
         <div className={styles.btn_con}>
           <button className={styles.btn}>Book Flight</button>
