@@ -1,6 +1,6 @@
 header {
   position: relative;
-  padding: 1rem;
+  padding: 1rem 1rem 8rem 1rem;
   z-index: 1;
 }
 .header__section {
@@ -78,9 +78,7 @@ header {
   left: -20px;
   top: 435px;
 }
-main {
-  margin-top: 10rem;
-}
+
 .section_1st_title_container {
   display: flex;
   justify-content: space-between;
@@ -120,11 +118,11 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 5rem 6rem;
+  padding: 5rem 6rem 0 6rem;
 }
 .reviews_container {
   display: flex;
-  padding: 0 4rem 6rem 4rem;
+  padding: 0 4rem 14rem 4rem;
   gap: 3rem;
   overflow-y: scroll;
   overflow-y: hidden;

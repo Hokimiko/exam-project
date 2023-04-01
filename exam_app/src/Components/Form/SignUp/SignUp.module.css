@@ -1,7 +1,7 @@
 
 .container {
   display: flex;
-  padding: 4rem 6rem;
+  padding: 4rem 6rem 14rem 6rem;
   gap: 6rem;
 }
 
@@ -135,4 +135,7 @@
 }
 .media:active {
   background-color: #8dd3ba33;
+}
+.button {
+  width: 100%;
 }

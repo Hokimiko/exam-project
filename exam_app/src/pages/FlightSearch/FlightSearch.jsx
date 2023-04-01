@@ -1,23 +1,18 @@
 import React from "react";
-import FlightsSelection from "../components/Card/Flight/flightsSelection/flightsSelection";
-import Navbar from "../components/Navbar/Navbar";
-import AllSee from "../components/UI/AllSee/AllSee";
-import BookFlight from "../components/Card/Flight/BookFlight/BookFlight";
 import styles from "./FlightSearch.module.css";
 import map from "./map.jpg";
-import BookJourney from "../components/Card/Flight/BookFlight/BookJourney/BookJourney";
-import Footer from "../components/Footer/Footer";
-import FooterCard from "../components/Footer/FooterCard/FooterCard";
+import BookJourney from "../../components/Card/Flight/BookFlight/BookJourney/BookJourney";
+import FlightsSelection from "../../components/Card/Flight/flightsSelection/flightsSelection";
+import Navbar from "../../components/Navbars/Navbar/Navbar";
+import AllSee from "../../components/UI/AllSee/AllSee";
+import BookFlight from "../../components/Card/Flight/BookFlight/BookFlight";
+import FindFlight from "../../components/Navbars/FindFlight/FindFlight";
 
 function FlightSearch() {
   return (
     <div className={styles.main}>
       <div className={styles.navbar_container}>
-        <Navbar
-          icon1="./public/icons/plane.png"
-          icon2="./public/icons/bed.png"
-          props="dark"
-        />
+        <FindFlight/>
       </div>
       <section className={styles.first_section}>
         <div className={styles.flightsSelection}>
@@ -29,7 +24,6 @@ function FlightSearch() {
           <AllSee
             subject="Let's go places together"
             text="Discover the latest offers and news and start planning your next trip with us."
-            btn_text="See All"
           />
         </div>
         <div className={styles.map_container}>
@@ -80,6 +74,7 @@ function FlightSearch() {
             text="Going somewhere to celebrate this season? Whether you’re going home or somewhere to roam, we’ve got the travel tools to get you to your destination."
             btn_text="See All"
           />
+          
         </div>
         <div className={styles.book_journey}>
           <BookJourney
@@ -90,7 +85,7 @@ function FlightSearch() {
           />
         </div>
       </section>
-      <footer>
+      {/* <footer>
         <div className={styles.cardFooter}>
           <FooterCard
             subject="Subscribe Newsletter"
@@ -101,7 +96,7 @@ function FlightSearch() {
           />
         </div>
         <Footer logo="../public/img/darkLogo.png" />
-      </footer>
+      </footer> */}
     </div>
   );
 }

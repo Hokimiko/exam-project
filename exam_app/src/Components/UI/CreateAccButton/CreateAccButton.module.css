@@ -1,9 +1,9 @@
 .btn {
     outline: none;
     border: none;
-    width: 100%;
     padding: 1rem;
     background: #8dd3bb;
+    text-align: center;
   
     font-family: "Montserrat";
     font-weight: 600;
