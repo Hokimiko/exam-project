@@ -1,24 +1,58 @@
 import React from "react";
-import Button from "../../../Components/UI/Button/Button";
+import SeeButton from "../../../Components/UI/SeeButton/SeeButton";
 import styles from "./AccountFlow.module.css";
 
 const AccountFlow = () => {
   return (
-    <main className={styles.main}>
-      <div className={styles.img_profile_container}>
-        <div className={styles.img_container}>
-          <div className={styles.btn_container}>
-            <Button
-              icon="./public/icons/download.svg"
-              text="Upload new cover"
-            />
+    <div className={styles.mainContainer}>
+      <h2 className={styles.title}>Account</h2>
+      <div className={styles.container}>
+        <div className={styles.name_container}>
+          <div className={styles.name}>
+            <h4 className={styles.nameText}>Name</h4>
+            <h2 className={styles.userName}>John Doe</h2>
           </div>
+          <SeeButton text="Change" />
         </div>
-        <div className={styles.prifile_container}>
-          <div className={styles.avatar}></div>
+        <div className={styles.name_container}>
+          <div className={styles.name}>
+            <h4 className={styles.nameText}>Email</h4>
+            <h2 className={styles.userName}>john.doe@gmail.com</h2>
+          </div>
+          <SeeButton text="Change" />
+        </div>
+        <div className={styles.name_container}>
+          <div className={styles.name}>
+            <h4 className={styles.nameText}>Password</h4>
+            <h2 className={styles.userName}>***********</h2>
+          </div>
+          <SeeButton text="Change" />
+        </div>
+        <div className={styles.name_container}>
+          <div className={styles.name}>
+            <h4 className={styles.nameText}>Phone number</h4>
+            <h2 className={styles.userName}>+996 953 756 253</h2>
+          </div>
+          <SeeButton text="Change" />
+        </div>
+        <div className={styles.name_container}>
+          <div className={styles.name}>
+            <h4 className={styles.nameText}>Address</h4>
+            <h2 className={styles.userName}>
+              Address St 32 main downtown, Los Angeles, California, USA
+            </h2>
+          </div>
+          <SeeButton text="Change" />
+        </div>
+        <div className={styles.name_container}>
+          <div className={styles.name}>
+            <h4 className={styles.nameText}>Date of birth</h4>
+            <h2 className={styles.userName}>01-01-1992</h2>
+          </div>
+          <SeeButton text="Change" />
         </div>
       </div>
-    </main>
+    </div>
   );
 };
 

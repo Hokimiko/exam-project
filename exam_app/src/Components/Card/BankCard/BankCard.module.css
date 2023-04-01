@@ -1,0 +1,89 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 346px;
+    height: 180px;
+    padding: 16px;
+    
+    background: #8DD3BB;
+    border: 1px solid transparent;
+    border-radius: 16px;
+    transition: .3s;
+}.card:hover {
+    background: #78b39d;
+    transition: .3s;
+}.card:active {
+    background: #ffffff;
+    border: 1px solid #78b39d;
+    transition: .3s;
+}
+
+.cardNumber_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardNumber {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.stars {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    
+    color: #112211;
+}
+.h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    
+    color: #112211;
+}
+
+.ValidThru_container {
+    display: flex;
+    justify-content: space-between;
+}.ValidThru {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.h4 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    
+    color: #112211;
+}
+
+.h6 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    
+    color: #112211;
+}
+
+.bin_container {
+    width: 24px;
+    height: 24px;
+}
+
+.ValidThru_container {
+    padding: 10px 0; 
+}
+
+.visa {
+    display: flex;
+    align-items: center;
+}
