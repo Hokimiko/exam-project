@@ -19,7 +19,8 @@
 
 .city_price {
     display: grid;
-    grid-template-columns: 177px 69px;
+    align-items: center;
+    grid-template-columns: 177px 75px;
     row-gap: 16px;
     grid-template-rows: 46px 48px;
     margin-bottom: 24px;
@@ -30,19 +31,20 @@
     height: 46px;
     color: white;
 }
-.city_con > h2 {
+.title {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
-    line-height: 29px;
+    color: #fff;
+    margin: 0;
 }
-.city_con > p {
+.text {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 17px;
+    color: #fff;
 }
 
 .price_con {
@@ -53,12 +55,13 @@
     height: 46px;
     color: white;
 }
-.price_con > h2 {
+.price {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
-    line-height: 29px;
+    color: #fff;
+    margin: 0;
 }
 
 .btn_con {

@@ -1,0 +1,33 @@
+.btn_dark {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    padding: 15px 15px;
+    gap: 8px;
+    border: 1px solid transparent;
+    background: #000000;
+    color: #ffffff;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btn_dark:active {
+    transition: 0.3s;
+    transform: scale(0.9);
+}
+
+.btn_light {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    padding: 15px 15px;
+    gap: 8px;
+    border: 1px solid transparent;
+    background: #ffffff;
+    color: #000000;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btn_light:active {
+    transition: 0.3s;
+    transform: scale(0.9);
+}

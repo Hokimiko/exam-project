@@ -8,7 +8,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 10px;
+  border-radius: 20px;
   overflow: hidden;
   z-index: 2;
 }
@@ -67,7 +67,7 @@ header {
 .text {
   font-family: "Montserrat";
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 20px;
   color: #fff;
 }
@@ -124,6 +124,11 @@ main {
 }
 .reviews_container {
   display: flex;
+  padding: 0 4rem 6rem 4rem;
   gap: 3rem;
-  
+  overflow-y: scroll;
+  overflow-y: hidden;
+}
+.reviews_container::-webkit-scrollbar {
+  display: none;
 }

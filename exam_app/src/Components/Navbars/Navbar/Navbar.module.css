@@ -1,31 +1,27 @@
-.header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 90px;
-}
 
-.nav {
+.container {
     display: flex;
     justify-content: space-between;
-    width: 220px;
+    padding: 1.5rem 2rem;
 }
 
+.links {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.logo_con {
+    margin-right: 80px;
+}
 
 .login {
-    font-family: 'Montserrat';
-    font-weight: 500;
-    color: #fff;
-}
-
-.buttons_con {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
 }
 
-button {
+.btn {
     font-family: 'Montserrat';
     font-weight: 600;
     padding: 15px 15px;

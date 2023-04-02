@@ -1,0 +1,126 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    width: 1252px;
+    height: 174px;
+}
+.container1{
+    display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+width: 1252px;
+height: 30px;
+
+}
+.text1{
+    width: 333px;
+height: 30px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 30px;
+color: #112211;
+}
+.container2{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+width: 430px;
+height: 24px;
+}
+.container3{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+width: 150px;
+height: 24px;
+}
+.con_checkbox1 input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+   }
+   
+   .con_checkbox1{
+    display: block;
+    position: relative;
+    cursor: pointer;
+    font-size: 20px;
+    user-select: none;
+   }
+   
+   .con_checkmark1{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 24px;
+    height: 24px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.30), 0px 1px 1px rgba(0,5);
+   }
+   
+   .con_checkbox1 input:checked ~ .con_checkmark1 {
+    background-image: linear-gradient(#b9e9b3,#a8e4a0)
+   }
+   
+   .con_checkmark1:after {
+    content: "";
+    position: absolute;
+    display: none;
+   }
+   
+   .con_checkbox1 input:checked ~ .con_checkmark1:after {
+    display: block;
+   }
+   
+   .con_checkbox1 .con_checkmark1:after {
+    left: 0.45em;
+    top: 0.25em;
+    width: 0.25em;
+    height: 0.5em;
+    border: solid white;
+    border-width: 0 0.15em 0.15em 0;
+    transform: rotate(45deg);
+   }
+   .con3_text1{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+color: #112211;
+width: 100px;
+   }
+.container4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    width: 1252px;
+    height: 120px;
+}
+.con4_container{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+width: 120px;
+height: 120px;
+background: #8DD3BB;
+border-radius: 12px;
+}

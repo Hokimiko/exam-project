@@ -1,0 +1,13 @@
+.btn {
+    outline: none;
+    border: none;
+    width: 100%;
+    padding: 1rem;
+    background: #8dd3bb;
+  
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 14px;
+  
+    color: #112211;
+  }
