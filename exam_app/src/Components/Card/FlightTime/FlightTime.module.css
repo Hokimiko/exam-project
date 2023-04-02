@@ -1,0 +1,146 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 96%;
+    height: 223px;
+    padding: 32px 24px;
+    
+    background: #FFFFFF;
+    
+    box-shadow: 0px 4px 16px rgba(17, 34, 17, 0.05);
+    border-radius: 12px;
+}
+
+.data_time {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dataText {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 20px;
+    
+    color: #112211;
+}.timeText {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 20px;
+    
+    color: #112211;
+    
+    opacity: 0.75;
+}
+
+.emirets_icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
+.emirets_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 196px;
+    height: 52px;
+    padding: 16px 32px;
+    
+    background: #FFFFFF;
+    
+    border: 0.5px solid #8DD3BB;
+    border-radius: 8px;
+}
+
+.img_container {
+    display: flex;
+    align-items: center;
+    width: 64px;
+    height: 64px;   
+}.img {
+    width: 100%;
+}
+
+.emiretsTitle {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 24px;
+    
+    color: #112211;
+}.emiretsText {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 14px;
+    
+    color: #112211;
+    
+    opacity: 0.6;
+}
+
+.texts {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 24px;
+    
+    width: 312px;
+    height: 42px;
+}.icon {
+    width: 24px;
+    height: 24px;
+}
+
+.line {
+    height: 48px;
+    width: 0;
+
+    border: 1px solid #D7E2EE;
+}
+
+.returnFlight {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.departure_container,
+.landing_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 240px;
+}
+
+.plane_container {
+    display: flex;
+    align-items: center;
+    width: 168px;
+    margin: 0 80px;
+}.plane_icon {
+    width: 45px;
+    height: 39px;
+    margin: 0 25px;
+}
+
+.departureTime {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 24px;
+    
+    color: #112211;
+}.p {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+    
+    color: #112211;
+    
+    opacity: 0.6;
+}

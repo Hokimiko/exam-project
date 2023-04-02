@@ -1,9 +1,12 @@
 import "./App.css";
-import { useState } from "react";
-import Account from "./pages/Accounts/Account/Account";
+import FlightDetail from "./pages/FlightDetail/FlightDetail";
 
 function App() {
-  return <div className="App"></div>;
+  return (
+    <div className="App">
+      <FlightDetail />
+    </div>
+  );
 }
 
 export default App;
