@@ -1,8 +1,39 @@
-import React from "react";
-import SeeButton from "../../../Components/UI/SeeButton/SeeButton";
+import React, { useEffect, useState } from "react";
+
 import styles from "./AccountFlow.module.css";
+import SeeButton from "../../../components/UI/SeeButton/SeeButton";
 
 const AccountFlow = () => {
+  const [nameValue, setNameValue] = useState("");
+  const [surnameValue, setSurnameValue] = useState("");
+  const [emailValue, setEmailValue] = useState("");
+  const [passwordValue, setPasswordValue] = useState("");
+  const [phoneValue, setPhoneValue] = useState("");
+
+  useEffect(() => {
+    const nameValueFromLocalStorage = localStorage.getItem("firstName");
+    const surnameValueFromLocalStorage = localStorage.getItem("lastName");
+    const emailValueFromLocalStorage = localStorage.getItem("emailValue");
+    const passwordValueFromLocalStorage = localStorage.getItem("passwordValue");
+    const phoneValueFromLocalStorage = localStorage.getItem("phoneValue");
+
+    if (nameValueFromLocalStorage) {
+      setNameValue(nameValueFromLocalStorage);
+    }
+    if (surnameValueFromLocalStorage) {
+      setSurnameValue(surnameValueFromLocalStorage);
+    }
+    if (emailValueFromLocalStorage) {
+      setEmailValue(emailValueFromLocalStorage);
+    }
+    if (passwordValueFromLocalStorage) {
+      setPasswordValue(passwordValueFromLocalStorage);
+    }
+    if (phoneValueFromLocalStorage) {
+      setPhoneValue(phoneValueFromLocalStorage);
+    }
+  }, []);
+
   return (
     <div className={styles.mainContainer}>
       <h2 className={styles.title}>Account</h2>
@@ -10,28 +41,30 @@ const AccountFlow = () => {
         <div className={styles.name_container}>
           <div className={styles.name}>
             <h4 className={styles.nameText}>Name</h4>
-            <h2 className={styles.userName}>John Doe</h2>
+            <h2 className={styles.userName}>
+              {nameValue} {surnameValue}
+            </h2>
           </div>
           <SeeButton text="Change" />
         </div>
         <div className={styles.name_container}>
           <div className={styles.name}>
             <h4 className={styles.nameText}>Email</h4>
-            <h2 className={styles.userName}>john.doe@gmail.com</h2>
+            <h2 className={styles.userName}>{emailValue}</h2>
           </div>
           <SeeButton text="Change" />
         </div>
         <div className={styles.name_container}>
           <div className={styles.name}>
             <h4 className={styles.nameText}>Password</h4>
-            <h2 className={styles.userName}>***********</h2>
+            <h2 className={styles.userName}>{passwordValue}</h2>
           </div>
           <SeeButton text="Change" />
         </div>
         <div className={styles.name_container}>
           <div className={styles.name}>
             <h4 className={styles.nameText}>Phone number</h4>
-            <h2 className={styles.userName}>+996 953 756 253</h2>
+            <h2 className={styles.userName}>{phoneValue}</h2>
           </div>
           <SeeButton text="Change" />
         </div>
