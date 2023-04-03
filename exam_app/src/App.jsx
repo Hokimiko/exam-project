@@ -1,6 +1,6 @@
 import "./App.css";
 import { useState } from "react";
-import Account from "./pages/Accounts/Account/Account";
+import CvkCard from "./Components/Card/CvkCard/CvkCard";
 
 function App() {
   return <div className="App"></div>;
