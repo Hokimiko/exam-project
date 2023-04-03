@@ -2,17 +2,19 @@ import React from "react";
 import styles from "./CvkCard.module.css";
 import SeeButton from "../../UI/SeeButton/SeeButton";
 import Button from "../../UI/Button/Button";
-function CvkCard() {
+function CvkCard({ city, price, img }) {
   return (
     <div className={styles.container}>
-      <div className={styles.img_container}></div>
+      <div className={styles.img_container}>
+        <img className={styles.img} src={img} />
+      </div>
       <div className={styles.card}>
         <div className={styles.card_content}>
           <div className={styles.title_price}>
-            <h1 className={styles.title}>CVK Park Bosphorus Hotel Istanbul</h1>
+            <h1 className={styles.title}>CVK Park Bosphorus Hotel {city}</h1>
             <div className={styles.card_price}>
               <h5 className={styles.price_h5}>starting from</h5>
-              <h1 className={styles.price_h1}>$ 240</h1>
+              <h1 className={styles.price_h1}>{price}</h1>
               <h6 className={styles.price_h6}>excl. tax</h6>
             </div>
           </div>
