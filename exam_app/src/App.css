@@ -1,12 +1,4 @@
-
-footer {
-    position: relative;
-}
-.footer {
-    width: 100%;
-}
-.card_footer {
-    position: absolute;
-    left: 55px;
-    top: -135px;
+body {
+    display: flex;
+    justify-content: center;
 }
