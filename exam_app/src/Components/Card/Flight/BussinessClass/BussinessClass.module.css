@@ -1,0 +1,118 @@
+.container {
+  display: flex;
+  border: 1px solid #eaeaea;
+  border-radius: 16px;  
+  overflow: hidden;
+}
+.flight_range {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 20px;
+  background: #ebf6f2;
+  padding: 1rem 4rem 1rem 1rem;
+}
+.time {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 32px;
+
+  color: #112211;
+}
+.place {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 12px;
+
+  color: #112211;
+
+  opacity: 0.6;
+}
+.username {
+  font-family: "Trade";
+  font-weight: 700;
+  font-size: 20px;
+
+  color: #112211;
+}
+.pass {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 14px;
+
+  color: #112211;
+}
+.class {
+  font-family: "Trade";
+  font-weight: 700;
+  font-size: 14px;
+
+  color: #112211;
+}
+.ticket {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #fff;
+}
+.user_profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #8dd3bb;
+  padding: 1rem;
+}
+.info_span {
+  display: flex;
+  gap: 50px;
+  padding: 0 1rem;
+  margin-bottom: 2rem;
+}
+.info_container {
+  display: flex;
+  align-items: center;
+}
+.title {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 14px;
+
+  color: #112211;
+
+  opacity: 0.6;
+}
+.subtitle {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 12px;
+
+  color: #112211;
+}
+.id_title {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 32px;
+
+  color: #112211;
+}
+.id {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 12px;
+
+  color: #112211;
+
+  opacity: 0.6;
+}
+.code_span {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+}

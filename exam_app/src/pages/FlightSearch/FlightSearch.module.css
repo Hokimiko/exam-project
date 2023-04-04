@@ -5,13 +5,12 @@
 
 .main {
     width: 100%;
-    padding-bottom: 4rem;
+    padding-bottom: 15rem;
 }
 
 .navbar_container {
     display: flex;
     justify-content: center;
-    background-color: #eeeeee;
     width: 100%;
 }
 
@@ -29,7 +28,7 @@
 .second__all_see {
     display: flex;
     justify-content: center;
-    margin-top: 20rem;
+    margin-top: 15rem;
 }
 
 .second_section {
@@ -49,7 +48,7 @@
 .third__all_see {
     display: flex;
     justify-content: center;
-    margin-top: 5rem;
+    margin-top: 3   rem;
     padding-bottom: 40px;
 }
 

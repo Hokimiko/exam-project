@@ -1,20 +1,40 @@
 import React from "react";
+import { useState } from "react";
 import Button from "../../UI/Button/Button";
 import CreateAccButton from "../../UI/CreateAccButton/CreateAccButton";
 import styles from "./SignUp.module.css";
 
-const SignUp = () => {
+const SignUp = () => {  
 
-  // let input = document.querySelector(".input")
-  // let firstName = document.querySelector("#firstName");
-  // let lastName = document.querySelector("#lastName");
-  // let email = document.querySelector("#email");
-  // let phone = document.querySelector("#phone");
-  // let password = document.querySelector("#pwd");
-  // let confirmPassword = document.querySelector("#conf_pwd");
-  // let btn = document.querySelector(".createacc_btn")
+  const [firstName, setFirstName] = useState('');
+  const [lastName, setLastName] = useState('');
+  const [passwordValue, setPasswordValue] = useState('');
+  const [emailValue, setEmailValue] = useState('');
+  const [phoneValue, setPhoneValue] = useState('');
 
-  
+  const handleFirstName = (event) => {
+    setFirstName(event.target.value);
+  };
+  const handleLastName = (event) => {
+    setLastName(event.target.value);
+  };
+  const handlePasswordValue = (event) => {
+    setPasswordValue(event.target.value);
+  };
+  const handleEmailValuee = (event) => {
+    setEmailValue(event.target.value);
+  };
+  const handlePhoneValue= (event) => {
+    setPhoneValue(event.target.value);
+  };
+
+  const handleClick = () => {
+    localStorage.setItem('firstName', firstName);
+    localStorage.setItem('lastName', lastName);
+    localStorage.setItem('passwordValue', passwordValue);
+    localStorage.setItem('emailValue', emailValue);
+    localStorage.setItem('phoneValue', phoneValue);
+  };
 
 
   return (
@@ -36,30 +56,40 @@ const SignUp = () => {
             placeholder="First name"
             type="text"
             id={styles.firstName}
+            value={firstName}
+            onChange={handleFirstName}
           />
           <input
             className={styles.input}
             placeholder="Last name"
             type="text"
             id={styles.lastName}
+            value={lastName}
+            onChange={handleLastName}
           />
           <input
             className={styles.input}
             placeholder="Email"
             type="email"
             id={styles.email}
+            value={emailValue}
+            onChange={handleEmailValuee}
           />
           <input
             className={styles.input}
             placeholder="Phone number"
             type="text"
             id={styles.phone}
+            value={phoneValue}
+            onChange={handlePhoneValue}
           />
           <input
             className={styles.input}
             placeholder="Password"
             type="password"
             id={styles.pwd}
+            value={passwordValue}
+            onChange={handlePasswordValue}
           />
           <input
             className={styles.input}
@@ -76,7 +106,9 @@ const SignUp = () => {
         </span>
         <div className={styles.create_acc}>
           {/* <button className={styles.btn}>Create account</button> */}
-          <CreateAccButton text="Create account" to="/flight_listing"/>
+          <div className={styles.button}>
+            <CreateAccButton text="Create account" to="/flight_listing" click={handleClick}/>
+          </div>
           <p className={styles.create_text}>Already have an account? Login</p>
         </div>
         <div className={styles.line}></div>
@@ -100,3 +132,6 @@ const SignUp = () => {
 };
 
 export default SignUp;
+
+
+

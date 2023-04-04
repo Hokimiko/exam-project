@@ -9,14 +9,13 @@
     background: #8DD3BB;
     border: 1px solid transparent;
     border-radius: 16px;
-    transition: .3s;
+
 }.card:hover {
     background: #78b39d;
     transition: .3s;
 }.card:active {
     background: #ffffff;
     border: 1px solid #78b39d;
-    transition: .3s;
 }
 
 .cardNumber_container {

@@ -1,12 +1,13 @@
 import React from "react";
 import styles from "./FlightDetail.module.css";
-import Button from "../../../UI/Button/Button";
 
 function FlightDetail({
   img,
   price,
   departure_time,
   departure_time2,
+  arrive,
+  arrive2,
   city,
   time,
   time2,
@@ -23,7 +24,7 @@ function FlightDetail({
               <p>4.2</p>
             </div>
             <div className={styles.grade_text}>
-              <p>Very Good 54 reviews</p>
+              <p><b>Very Good</b> 54 reviews</p>
             </div>
           </div>
           <div className={styles.place_container}>
@@ -40,6 +41,8 @@ function FlightDetail({
               <div className={styles.time_container}>
                 <div className={styles.time}>
                   <h2>{departure_time}</h2>
+                  <h2> - </h2>
+                  <h2>{arrive}</h2>
                 </div>
                 <div className={styles.city}>
                   <p>{city}</p>
@@ -66,6 +69,8 @@ function FlightDetail({
               <div className={styles.time_container}>
                 <div className={styles.time}>
                   <h2>{departure_time2}</h2>
+                  <h2>-</h2>
+                  <h2>{arrive2}</h2>
                 </div>
                 <div className={styles.city}>
                   <p>Emirates</p>

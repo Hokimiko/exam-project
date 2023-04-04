@@ -1,10 +1,18 @@
-import React from 'react'
-import styles from './Backdrop.module.css'
+import React from "react";
+import styles from "./Backdrop.module.css";
+import clsx from "clsx";
 
-const Backdrop = ({children}) => {
+const Backdrop = ({ active, setActive, children }) => {
   return (
-    <div className={styles.backdrop}>{children}</div>
-  )
-}
+    <div
+      className={
+        active ? clsx([styles.backdrop, styles.active]) : styles.active
+      }
+      onClick={() => setActive(false)}
+    >
+      {children}
+    </div>
+  );
+};
 
 export default Backdrop;

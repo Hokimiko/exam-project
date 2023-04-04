@@ -23,7 +23,7 @@
   src: url("./public/fonts/Montserrat-Bold.ttf");
   font-weight: 700;
 }
-a{
+a {
   text-decoration: none;
   outline: none;
 }
@@ -49,4 +49,14 @@ a{
   color: #112211;
   font-family: "Montserrat";
   font-weight: 500;
+}
+.dark_semibold {
+  text-decoration: none;
+  outline: none;
+
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 16px;
+
+  color: #112211;
 }
