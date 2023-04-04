@@ -124,33 +124,7 @@ function Commentaries() {
                     <img className={styles.icon} src="./public/icons/flag.svg" alt="" />
                 </div>
             </div>
-            
-            <div className={styles.line}></div>
-
-            <div className={styles.comments_container}>
-                <div className={styles.img_container}>
-                    <img src="./public/icons/Ellipse 2.png" alt="" /></div>
-                
-            <div className={styles.Commentaries}>
-                <div className={styles.text_container}>
-                    <div className={styles.text__amazing}>
-                    <p className={styles.amazing}>
-                    5.0 Amazing
-                    </p>
-
-                    <p className={styles.name}>
-                    Omar Siphron
-                    </p>
-                    </div>
-                </div>
-                <div>
-                <p className={styles.comment}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                </div>
-            </div>
-                <div className={styles.icon_congtainer}>
-                    <img className={styles.icon} src="./public/icons/flag.svg" alt="" />
-                </div>
-            </div>
+        
         </div>
     </div>
   )
