@@ -20,6 +20,8 @@ function linkType(color) {
     return styles.link_light;
   } else if (color === "dark") {
     return styles.link_dark;
+  } else if (color === "dark_semiblod") {
+    return styles.dark_semibold
   }
 }
 export default Link;

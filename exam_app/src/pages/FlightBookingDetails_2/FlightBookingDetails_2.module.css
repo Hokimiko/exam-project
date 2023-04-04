@@ -1,0 +1,13 @@
+.container {
+    background-color: #fafbfc;
+}
+.main {
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem;
+}
+.left__section {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
