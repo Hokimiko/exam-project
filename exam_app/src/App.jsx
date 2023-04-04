@@ -38,7 +38,7 @@ function App() {
           <Route path="/account" element={<Account />} />
           <Route path="/acc_flow" element={<AccountFlow />} />
         </Routes>
-        {/* <ProfileModal/> */}
+        <ProfileModal/>
         
       </Layout>
       {/* <footer>
