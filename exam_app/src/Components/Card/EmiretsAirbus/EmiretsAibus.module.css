@@ -1,0 +1,97 @@
+.emiretsAirbus_container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.emiretsAirbus {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 7px;
+}
+
+.h2 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 24px;
+    margin: 5px 0;
+    
+    color: #112211;
+}
+
+.location_container {
+    display: flex;
+    gap: 10px;
+}.locationText {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 14px;
+    
+    color: #112211;
+}
+
+.grade_container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}.grade {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    
+    color: #112211;
+
+    width: 40px;
+    height: 32px;
+    
+    border: 1px solid #8DD3BB;
+    border-radius: 4px;
+}.gradeText {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 12px;
+    
+    color: #112211;
+}
+
+.price_like_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 276px;
+}.price_container {
+    height: 39px;
+}.like_button_container {
+    display: flex;
+    justify-content: space-between;
+    height: 48px;
+}
+
+.price {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    
+    text-align: right;
+    
+    color: #FF8682;
+}
+
+.like,
+.save {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+
+    border: 1px solid #8DD3BB;
+    border-radius: 4px;
+}
