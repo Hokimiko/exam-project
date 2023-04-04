@@ -1,0 +1,163 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 298.5px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(17, 34, 17, 0.05);
+    border-radius: 12px;
+}
+
+.img_container {
+    width: 35%;
+    height: 298.5px;
+    overflow: hidden;
+
+    background-size: cover;
+    border-radius: 12px 0px 0px 12px;
+}.img {
+    width: 100%;
+    height: 100%;
+}.card {
+    padding: 24px;
+    
+    width: 59%;
+    height: 252px;
+    border-radius: 0px 12px 12px 0px;
+}
+
+.card_content {
+    width: 100%;
+}
+
+.title_price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card_price {
+    width: 107px;
+    height: 59px;
+}
+
+.title {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 20px;
+
+    color: #112211;
+    margin-bottom: 18px;
+}
+
+.location_container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 14px;
+}.location {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 12px;
+
+    color: #112211;
+
+    opacity: 0.75;
+}
+
+.stars  {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 13px;
+}
+
+.aminities {
+    display: flex;
+    width: 112px;
+    justify-self: 14px;
+    gap: 5px;
+}
+.starsHotel {
+    display: flex;
+    justify-content: space-between;
+    width: 316px;
+}
+.starsText,
+.aminitiesText {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 12px;
+
+    color: #112211;
+}
+
+.coffeIcon {
+    width: 13px;
+    height: 18px;
+}
+
+.grade_container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}.grade_text {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 12px;
+
+    color: #112211;
+}
+
+.line {
+    width: 100%;
+    height: 0.5px;
+    
+    margin: 24px 0;
+    background: #112211;
+    opacity: 0.25;
+}
+
+.buttons_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    background-color: #8DD3BB;
+    border: 1px solid transparent;
+    width: 85%;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 14px;
+
+    border-radius: 4px;
+    
+    color: #112211;
+    transition: .1s;
+}.btn:active {
+    background-color: #ffffff;
+    border: 1px solid #8DD3BB;
+    transition: .1s;
+}
+
+.price_h1 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 24px;
+
+    color: #FF8682;
+    opacity: 0.75;
+}.price_h5 {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 12px;
+
+    color: #112211;
+}.price_h6 {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 12px;
+    text-align: right;
+
+    color: #112211;
+    opacity: 0.75;
+}
