@@ -44,8 +44,3 @@ body {
   src: url("./public/fonts/TradeGothicLTStd-Extended.ttf");
   font-weight: 500;
 }
-.account {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}

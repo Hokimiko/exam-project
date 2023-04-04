@@ -1,0 +1,123 @@
+.container {
+    width: 1142px;
+    height: 745px;
+}
+
+.title_btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}.title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    
+    color: #112211;
+}
+
+.grade_container {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin: 30px 0;
+}
+
+.grade {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    
+    color: #112211;
+}
+
+.text1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    
+    color: #112211;
+    
+}.text2 {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 14px;
+    
+    color: #112211;
+}
+
+.comments_container {
+    display: flex;
+    gap: 16px;
+}.img_container {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+
+    border: 1px solid rgb(222,222,222);
+}
+
+.Commentaries {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 980px;
+}
+
+.line {
+    width: 100%;
+    margin: 24px 0;
+
+    border: 1px solid rgb(222,222,222);
+}
+
+.text_container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.text__amazing {
+    display: flex;
+}
+
+.amazing {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    padding-right: 8px;
+    border-right: 2px solid rgb(0, 0, 0);
+    
+    color: #112211;
+}.name {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    padding-left: 8px;
+    
+    color: #112211;
+}.comment {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    
+    color: #112211;
+}
+
+.icon_congtainer {
+    display: flex;
+    justify-content: center;  
+    width: 95px;
+}
+
+.icon {
+    width: 15px;
+    height: 17px;
+}
