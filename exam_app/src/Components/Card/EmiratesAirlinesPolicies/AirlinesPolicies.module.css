@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 97%;
+    height: 66px;
+    padding: 18px;
+    
+    background: rgba(141, 211, 187, 0.6);
+    border-radius: 8px;
+    
+}
+
+.h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    
+    color: #112211;
+}
+
+.texts_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text1_container,
+.text2_container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 571px;
+}.texts {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    
+    color: #112211;
+    
+    opacity: 0.75;
+}

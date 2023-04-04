@@ -1,0 +1,61 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 0px 4px 16px rgba(17, 34, 17, 0.05);
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.title {
+  font-family: "Trade";
+  font-weight: 700;
+  font-size: 16px;
+
+  color: #112211;
+}
+.subtitle {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 14px;
+
+  color: #112211;
+}
+.radio {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 55px 10px 10px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.inp_radio[type="radio"] {
+    display: none;
+}
+.radio::before {
+    content: "";
+    width: 18px;
+    height: 18px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.inp_radio[type="radio"]:checked + .radio {
+    background-color: #8DD3BB;
+    color: #fff;
+}
+.inp_radio[type="radio"]:checked + .radio::before {
+    height: 10px;
+    width: 10px;
+    border: 6px solid #fff;
+}
+.link {
+    width: 99%;
+    display: flex;
+    justify-content: start;
+}
